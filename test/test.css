@@ -1,56 +1,63 @@
+* {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: rgba(233, 215, 207);
+    padding: 50px;
+}
+
 header {
     margin-bottom: 80px;
 }
 
 h1 {
-    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 68px;
     color: rgb(71, 62, 62);
-    margin: 0;
+    margin: 12px 0;
 }
 
 header p {
     font-size: 20px;
-    margin: 12px 0;
+    margin: 20px;
 }
 
-a {
-    padding: 12px 48px;
+header a {
     background-color: rgb(167, 1, 78);
     color: white;
+    font-size: 24px;
+    padding: 12px 48px;
+    text-decoration: none;
     border: 1px solid rgb(167, 1, 78);
     border-radius: 4px;
-    font-size: 24px;
     display: inline-block;
-    margin: 0;
 }
 
-a:hover {
-    text-decoration: none;
-    background-color: rgb(12, 180, 40);
+header a:hover {
+    background-color: rgb(14, 159, 14);
 }
 
 ol {
     list-style: none;
     width: 500px;
-    margin: 36px auto 0 auto;
     padding: 0;
+    margin: 36px auto 0 auto;
 }
 
 li {
-    font-family: 'Poppins', sans-serif;
-    padding: 16px;
-    margin: 32px;
     background-color: rgb(223, 136, 124);
     border-radius: 6px;
-    box-shadow: 10px 7px 4px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    margin: 32px;
 }
 
-h2 {
-    color: rgb(78, 13, 5);
+li h2 {
     font-family: 'Oswald', sans-serif;
 }
 
-.daily-goal {
+li p {
     margin: 12px;
     font-size: 20px;
 }
