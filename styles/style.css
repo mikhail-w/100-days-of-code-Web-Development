@@ -1,44 +1,75 @@
 body {
+    background-color: rgb(244, 234, 255);
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin: 50px 50px 50px 50px;
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    border: 5px solid rgb(50, 44, 44);
-    position: relative;
-    text-align: center;
-    border-radius: 100px;
-    margin-bottom: 0;
-    margin-top: -190px;
+header {
+    padding-bottom: 40px;
+}
+
+header h1 {
+    color: rgb(88, 49, 196);
+    font-size: 52px;
+}
+
+header img {
+    width: 300px;
 }
 
 main {
-    text-align: center;
-    background-color: rgb(219, 108, 94);
-    padding: 80px 10px 20px 20px;
-    border: 5px solid rgb(44, 44, 44);
+    width: 750px;
+    margin: 32px auto;
+    padding: 32px;
     border-radius: 8px;
-    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
-    width: 800px;
-    margin: 200px auto 72px auto;
-}
-
-h1 {
-    font-size: 30px;
-    color: rgb(31, 25, 25);
-}
-
-.date {
-    color: rgb(116, 5, 5);
-}
-
-.todays-challenge {
-    color: rgb(75, 64, 64);
-    font-size: 44px;
-    font-weight: 600;
+    background-color: rgb(122, 74, 218);
+    color: white;
+    text-align: left;
+    font-weight: 400;
 }
 
 a {
-    color: rgb(73, 29, 50);
+    background-color: bisque;
+    color: black;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+a:hover, a:active {
+    background-color: rgb(85, 247, 96);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+}
+
+.star {
+    color: rgb(255, 237, 177);
+    border-color: rgb(247, 209, 85);
+}
+
+footer a {
+    background-color: rgb(246, 227, 57);
+    display: inline-block;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+a {
+    color: rgb(52, 51, 51);
+    text-decoration: none;
+}
+
+footer p {
+    color: grey;
+    font-size: .9em;
 }
